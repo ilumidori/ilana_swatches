@@ -1,11 +1,15 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #FF95D0;
+  /* background-color: #FF95D0; */
   background-image: url('https://i.ibb.co/MkY1XVTX/background.png');
+  image-rendering: pixelated;
+  image-rendering: crisp-edges; /* fallback for some browsers */
   background-repeat: repeat;
-  background-size: auto;
+  background-size: 92%;
   background-position: center;
+  /* background: repeating-conic-gradient(#333333 0deg 90deg, #eeeeee 90deg 180deg); */
+  background-blend-mode: screen;
   font-family: Trebuchet MS;
   display: flex;
   justify-content: center;
@@ -36,4 +40,3 @@ body {
 .grid-item img {
   display: block;
 }
-
