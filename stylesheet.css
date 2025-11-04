@@ -15,8 +15,8 @@ html, body {
 }
 
 .background {
-  background: #F1426E;
-  background: linear-gradient(180deg,rgba(241, 66, 110, 1) 0%, rgba(237, 99, 142, 1) 100%);
+  background: #FC8EC5;
+  background: linear-gradient(180deg,rgba(252, 142, 197, 1) 0%, rgba(255, 141, 211, 1) 20%, rgba(255, 160, 216, 1) 40%, rgba(255, 192, 209, 1) 60%, rgba(255, 223, 194, 1) 80%);
   position: absolute;
   top: 0;
   left: 0;
@@ -50,5 +50,3 @@ html, body {
 .grid-item img {
   display: block;
 }
-
-
