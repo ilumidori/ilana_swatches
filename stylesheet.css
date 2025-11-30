@@ -29,7 +29,7 @@ html, body {
   display: grid;
   grid-template-columns: repeat(8, 72px);
   grid-template-rows: repeat(5, 72px);
-  gap: 30px;
+  gap: 50px;
   justify-content: center;
   align-content: center;
   z-index: 1;
