@@ -28,8 +28,8 @@ html, body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, 72px);
-  grid-template-rows: repeat(5, 72px);
-  gap: 40px;
+  grid-template-rows: repeat(6, 72px);
+  gap: 32px;
   justify-content: center;
   align-content: center;
   z-index: 1;
