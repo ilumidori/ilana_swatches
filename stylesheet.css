@@ -29,7 +29,7 @@ html, body {
   display: grid;
   grid-template-columns: repeat(8, 72px);
   grid-template-rows: repeat(6, 72px);
-  gap: 32px;
+  gap: 22px;
   justify-content: center;
   align-content: center;
   z-index: 1;
@@ -50,3 +50,4 @@ html, body {
 .grid-item img {
   display: block;
 }
+
